@@ -6,6 +6,14 @@ body {
 	color: red;
 }
 
+#dropdown-btn {
+	color: white;
+}
+
+.dropdown-item {
+	color: white;
+}
+
 #page-descriptor {
 	width: 100%;
 	height: 70px;

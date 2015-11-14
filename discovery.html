@@ -31,7 +31,12 @@
 		      	</ul>
 
 		      	<ul class="right">
-		      		<li><a href="#">JACOB</a></li>
+		      		<a id="dropdown-btn" class='dropdown-button grey darken-3 btn-flat' href='#' data-activates='dropdown1'>Jacob</a>
+					<ul id='dropdown1' class='dropdown-content grey darken-3'>
+					    <li><a class="dropdown-item" href="#!">Settings</a></li>
+					    <li><a class="dropdown-item" href="#!">Account</a></li>
+					    <li><a class="dropdown-item" href="#!">Logout</a></li>
+				  	</ul>
 		      	</ul>
 
 		      	<ul class="side-nav" id="mobile-demo">
@@ -67,26 +72,33 @@
 			<a class="btn-large white system-selector" onclick="turnGray()">VITA</a>
 		
  
-			<a class="btn-large red system-selector" id="system-selector-next-btn">CONTINUE</a>			
+			<a href="games.html" class="btn-large red system-selector" id="system-selector-next-btn">CONTINUE</a>			
 
 		    </div>
 
     		<div id="curated" class="col s12">
 			   	<!-- Donovon's Stuff will go here -->
-				<p>Recommendations from your local Gamestop </p>
+				<h2 class="center-align">Recommendations from your local Gamestop </h2>
 				<div class="row">
-					<div class="col s12 m4 l6 text">
-						<div class="card">
+					<div class="col s12 m4 l6 text center-align">
+						<div class="card ">
 			    			<div class="card-image waves-effect waves-block waves-light">
 			      				<img class="activator" src="images/diablo.jpg">
 			    			</div>
 				    		<div class="card-content">
-				      			<span class="card-title activator grey-text text-darken-4">Diablo III<i class="material-icons right">more_vert</i></span>
+				      			<span class="card-title activator grey-text text-darken-4">Diablo III: Reaper of Souls<i class="material-icons right">more_vert</i></span>
 				      			<p><a href="#">Donovon's Recommendation</a></p>
 				    		</div>
 				    		<div class="card-reveal">
-				      			<span class="card-title grey-text text-darken-4">Diablo III<i class="material-icons right">close</i></span>
-								<p>Insert review of Diablo III</p>
+				      			<span class="card-title grey-text text-darken-4">Diablo III: Reaper of Souls<i class="material-icons right">close</i></span>
+								<img class="responsive-img" src="images/donovon.jpg">
+
+								<p>
+									There's a good chance you've played games a lot like Diablo III before, and at no point
+									does it dare to surprise you by tinkering with its tried-and-true formula.
+									But it creates such an enticing world and offers up such enjoyable abilities that it makes that
+									formula feel fresh again.
+								</p>
 								<p style="color:#ef3124">Price: $19.99</p>
 								<p style="color:#ef3124">Average User Rating: 8.5</p>
 								<p>Video</p>
@@ -94,12 +106,22 @@
 				    				<source src="http://gamestoptx.uds.ak.o.brightcove.com/84373748001/84373748001_3166614799001_D3Exp-DR-Intro-enUS-Rated.mp4" type="video/mp4">
 				  				</video>
 								<h3><a href="http://www.gamestop.com/pc/games/diablo-iii-reaper-of-souls/113384">Game Page</a></h3>
-								<p >Other games I like:</p>
-								<p> Insert game cover art links </p>
-				  			</div>
+								<p>This game is available on:</p>
+								<div class="row">
+									<div class="col s12 m4 l4 text">
+										<a class="btn-large white system-selector">PC</a>
+									</div>
+									<div class="col s12 m4 l4 text">
+										<a class="btn-large white system-selector">PLAYSTATION 4</a>
+									</div>
+									<div class="col s12 m4 l4 text">
+										<a class="btn-large white system-selector">XBOX ONE </a>
+									</div>
+				  				</div>
+							</div>
 						</div>
 					</div>
-					<div class="col s12 m4 l6 text">
+					<div class="col s12 m4 l6 text center-align">
 						<div class="card">
 				   			<div class="card-image waves-effect waves-block waves-light">
 				      			<img class="activator" src="images/brothers.jpg">
@@ -109,8 +131,34 @@
 					      		<p><a href="#">Anthony's Recommendation</a></p>
 					    	</div>
 					   		<div class="card-reveal">
-					      		<span class="card-title grey-text text-darken-4">Donovon<i class="material-icons right">close</i></span>
-					      		<p>Here is some more information about this product that is only revealed once clicked on.</p>
+					      		<span class="card-title grey-text text-darken-4">Brothers: A Tale of Two Sons<i class="material-icons right">close</i></span>
+								<img class="responsive-img" src="images/anthony.jpg">
+					      		<p> 
+					      			Brothers has everything that I look for in a game: an interesting plot, a unique game mechanic,
+									and a beautiful universe, among many other things. The first thing you notice about the game is the
+									truly unique control system. The player controls two people simultaneously using the two analog sticks
+									and just two buttons. This takes some getting used to but the game eases you into it before throwing tough
+									puzzles that require some rather ambidextrous fingerwork at you, all the while providing you with a great soundtrack
+									and one of the most beautiful and interesting surroundings. Overall, this game is one of the best I've ever played and
+									would recommend wholeheartedly to anyone looking for an adventure of a lifetime.</p>
+								<p style="color:#ef3124">Price: $14.99</p>
+								<p style="color:#ef3124">Average User Rating: 8</p>
+								<p>Video</p>
+								<div class="video-container">
+	        						<iframe width="560" height="315" src="https://www.youtube.com/embed/DHohBVfhGDU" frameborder="0" allowfullscreen></iframe>
+	      						</div>
+								<p>This game is available on:</p>
+								<div class="row">
+									<div class="col s12 m4 l4 text">
+										<a class="btn-large white system-selector">PC</a>
+									</div>
+									<div class="col s12 m4 l4 text">
+										<a class="btn-large white system-selector">PLAYSTATION 4</a>
+									</div>
+									<div class="col s12 m4 l4 text">
+										<a class="btn-large white system-selector">XBOX ONE </a>
+									</div>
+								</div>
 					    	</div>
 					  	</div>
 					</div>
@@ -119,15 +167,34 @@
 					<div class="col s12 m4 l6 text">
 						<div class="card">
 							<div class="card-image waves-effect waves-block waves-light">
-								<img class="activator" src="images/miku.jpg">
+								<img class="activator" src="images/cod.jpg">
 							</div>
 							<div class="card-content">
-								<span class="card-title activator grey-text text-darken-4">Project Diva<i class="material-icons right">more_vert</i></span>
+								<span class="card-title activator grey-text text-darken-4">Call of Duty: Black Ops III<i class="material-icons right">more_vert</i></span>
 								<p><a href="#">Johan's Recommendation</a></p>
 							</div>
 							<div class="card-reveal">
-								<span class="card-title grey-text text-darken-4">Johan<i class="material-icons right">close</i></span>
-								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+								<span class="card-title grey-text text-darken-4">Call of Duty: Black Ops III<i class="material-icons right">close</i></span>
+								<img class="responsive-img" src="images/johan.jpg">
+								<p>I'm MLG dude. I've already prestiged and I'm close to doing it again.  1v1 me</p>
+								<p style="color:#ef3124">Price: $59.99</p>
+								<p style="color:#ef3124">Average User Rating: 6.2</p>
+								<p>Video</p>
+								<video class="responsive-video" controls>
+				    				<source src="http://gamestoptx.uds.ak.o.brightcove.com/84373748001/84373748001_4417033218001_4416975261001.mp4" type="video/mp4">
+				  				</video>
+									<p>This game is available on:</p>
+									<div class="row">
+										<div class="col s12 m4 l4 text">
+											<a class="btn-large white system-selector">PC</a>
+										</div>
+										<div class="col s12 m4 l4 text">
+											<a class="btn-large white system-selector">PLAYSTATION 4</a>
+										</div>
+										<div class="col s12 m4 l4 text">
+											<a class="btn-large white system-selector">XBOX ONE </a>
+										</div>
+									</div>
 							</div>
 						</div>
 					</div>
@@ -137,12 +204,24 @@
 						    	<img class="activator" src="images/monster.jpg">
 						    </div>
 						    <div class="card-content">
-						    	<span class="card-title activator grey-text text-darken-4">Monster Hunter 4<i class="material-icons right">more_vert</i></span>
+						    	<span class="card-title activator grey-text text-darken-4">Monster Hunter 4 Ultimate<i class="material-icons right">more_vert</i></span>
 						      	<p><a href="#">Ben's Recommendation</a></p>
 						    </div>
 						    <div class="card-reveal">
-						    	<span class="card-title grey-text text-darken-4">Ben<i class="material-icons right">close</i></span>
-						      	<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						    	<span class="card-title grey-text text-darken-4">Call of Duty: Black Ops III<i class="material-icons right">close</i></span>
+									<img class="responsive-img" src="images/ben.jpg">
+						      	<p>
+						      		Monster Hunter 4 Ultimate is utterly magnificent. Newfound vertical freedom, extraordinary new
+									monsters and native 3DS multiplayer makes for the best game in the series to date, coupled with a
+									much more compelling storyline and some killer new features.</p>
+								<p style="color:#ef3124">Price: $39.99</p>
+								<p style="color:#ef3124">Average User Rating: 9.2</p>
+								<p>Video</p>
+								<div class="video-container">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/prcQT5om1dA" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<p>This game is available on:</p>
+								<a class="btn-large white system-selector">3DS</a>
 						    </div>
 						</div>
 					</div>

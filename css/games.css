@@ -31,3 +31,26 @@ body {
 	font-weight: bold;
 	padding-top: 15px;
 }
+
+#input-continue {
+	width: 100%;
+}
+
+@media only screen and (max-width: 308px) {
+	#input-descriptor {
+		height: 100px;
+	}
+}
+
+@media only screen and (max-width: 299px) {
+	#select-descriptor {
+		height: 100px;
+	}
+}
+
+
+@media only screen and (max-width: 195px) {
+	#page-descriptor {
+		height: 140px;
+	}
+}
