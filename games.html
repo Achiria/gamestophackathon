@@ -21,7 +21,7 @@
 			        <li><a href="#">SIGN OUT</a></li>
 			        <li><a href="#">POWER UP REWARDS</a></li>
 			        <li><a href="#">GAME INFORMER NEWS</a></li>
-			        <li><a href="#">DISCOVER</a></li>
+			        <li><a href="discovery.html">DISCOVERY</a></li>
 			        <li><a href="#">MESSAGES</a></li>
 			        <li><a href="#">SETTINGS</a></li>
 			        <li><a href="#">ABOUT/FEEDBACK</a></li>
@@ -35,7 +35,7 @@
 			        <li><a href="#" style="color:red;">SIGN OUT</a></li>
 			        <li><a href="#" style="color:red;">POWER UP REWARDS</a></li>
 			        <li><a href="#" style="color:red;">GAME INFORMER NEWS</a></li>
-			        <li><a href="#" style="color:red;">DISCOVER</a></li>
+			        <li><a href="discovery.html" style="color:red;">DISCOVERY</a></li>
 			        <li><a href="#" style="color:red;">MESSAGES</a></li>
 			        <li><a href="#" style="color:red;">SETTINGS</a></li>
 			        <li><a href="#" style="color:red;">ABOUT/FEEDBACK</a></li>
@@ -85,7 +85,10 @@
 
 				<div id="question-modal" class="modal modal-fixed-footer">
 			    	<div class="modal-content">
-			      		<h4>What did you like about this game?</h4>
+			    		<div id="modal-title">
+			    			<h4>What did you like about this game?</h4>
+			    		</div>
+			      		
 			      		<p>A bunch of text</p>
 			    	</div>
 			    	<div class="modal-footer">
@@ -107,7 +110,7 @@
 			    	</form>
 			   	</div>
 
-			   	<a class="btn-large grey darken-2 system-selector" id="input-continue">Select</a>
+			   	<a class="btn-large grey system-selector modal-trigger" id="input-continue" href="#question-modal">Select</a>
 
 			<!-- End left tab -->			
 		    </div>
