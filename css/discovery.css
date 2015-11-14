@@ -30,7 +30,7 @@ body {
 }
 
 .system-selector {
-	width: 100%;
+	width: 100vw;
 	color: black;
 	font-size: 1.5em;
 }
